@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <script src="chrome-extension://jfkjbfhcfaoldhgbnkekkoheganchiea/scripts/injected.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>술게임</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="chrome-extension://ecmeogcbcoalojmkfkmancobmiahaigg/content_script/content_script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="pre-title">코알누 대학 엠티</h1>
+        <h1 class="title">술게임</h1>
+        <h1>
+          <span class="red-text">죽음</span>
+          "의 업&다운"
+        </h1>
+        <div>
+          <img src="./image/giphy.gif" alt="#" class="main-img" />
+          <h1 id="result-area">죽기 싫다면 맞춰라</h1>
+        </div>
+        <h2 id="chance-area">남은기회:5</h2>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+          <input
+            type="number"
+            id="user-input"
+            class="from-control mb-10"
+            placeholder="1부터 100까지 숫자를 입력"
+          />
+        </div>
+        <div class="col-md-2">
+          <button id="play-button" class="btn btn-success mb-2 button-style">GO!!</button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button id="reset-button" class="btn btn-warning mt-3 button-style button-reset">
+        리셋!
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

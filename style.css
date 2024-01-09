@@ -1,0 +1,78 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "East Sea Dokdo", sans-serif;
+  background-image: url(image/soju.jpeg);
+}
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.container {
+  border: 10px solid white;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(247, 243, 242, 0.7);
+}
+.pre-title {
+  font-size: 5vw;
+  font-weight: bold;
+  color: blue;
+}
+.title {
+  font-size: 10vw;
+  font-weight: bold;
+}
+.main-img {
+  width: 30vw;
+  height: 20vh;
+}
+.from-control {
+  height: 80px;
+  font-size: 3vw;
+  margin-right: 20px;
+  text-align: center;
+}
+.from-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:not(disabled):not(.disabled) {
+  cursor: pointer;
+}
+.btn-success {
+  color: #fff;
+  background-color: hsl(310, 61%, 41%);
+  border-color: hsl(310, 61%, 41%);
+}
+
+.button-style {
+  height: 80px;
+  width: 120px;
+  margin-top: 1px;
+  border-radius: 50px;
+  font-size: 30pt;
+  font-weight: bold;
+}
